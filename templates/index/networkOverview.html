@@ -58,13 +58,13 @@
             <div class="p-2">
               <div class="text-secondary mb-0">Staked Ether</div>
               <h5 class="font-weight-normal mb-0">
-                <span data-bs-toggle="tooltip" data-bs-placement="top" title="The sum of all effective balances" data-bind="text: $root.formatEth(eligible()) + ' ETH'">{{ formatEthAddCommasFromGwei .TotalEligibleEther }} ETH</span>
+                <span data-bs-toggle="tooltip" data-bs-placement="top" title="The sum of all effective balances" data-bind="text: $root.formatEth(eligible()) + ' OR'">{{ formatEthAddCommasFromGwei .TotalEligibleEther }} OR</span>
               </h5>
             </div>
             <div class="text-end p-2">
               <div class="text-secondary mb-0">Average Balance</div>
               <h5 class="font-weight-normal mb-0">
-                <span data-bs-toggle="tooltip" data-bs-placement="top" title="The average current balance of all validators staked" data-bind="text: $root.formatEth(avg_balance()) + ' ETH'">{{ formatEthFromGwei .AverageValidatorBalance }}</span>
+                <span data-bs-toggle="tooltip" data-bs-placement="top" title="The average current balance of all validators staked" data-bind="text: $root.formatEth(avg_balance()) + ' OR'">{{ formatEthFromGwei .AverageValidatorBalance }}</span>
               </h5>
             </div>
           </div>
